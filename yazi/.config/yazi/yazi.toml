@@ -1,0 +1,7 @@
+[manager]
+cwd = { emit = "cd" }
+
+[opener]
+edit = [
+    { run = 'code --wait -n --disable-workspace-trust "$@"', block = true },
+]
