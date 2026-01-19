@@ -2,7 +2,7 @@
   "position": "top",
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["hyprland/window"],
-  "modules-right": ["network", "pulseaudio", "battery", "tray", "clock"],
+  "modules-right": ["network", "pulseaudio", "battery", "tray", "clock", "custom/power"],
   "clock": {
     "format": "<span size='16000' foreground='#f5c2e7'> </span>{:%a %d %H:%M}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
@@ -40,5 +40,10 @@
   "tray": {
     "icon-size": 18,
     "spacing": 8
+  },
+  "custom/power": {
+    "format": "⏻",
+    "tooltip": false,
+    "on-click": "wleave -b 5 -T 400 -B 400"
   }
 }
