@@ -1,5 +1,4 @@
 {
-    "margin": 200,
     "delay-command-ms": 100,
     "close-on-lost-focus": true,
     "show-keybinds": true,
@@ -10,13 +9,6 @@
             "text": "Lock",
             "keybind": "l",
             "icon": "/home/amitr/.config/wleave/icons/lock.svg"
-        },
-        {
-            "label": "hibernate",
-            "action": "systemctl hibernate",
-            "text": "Hibernate",
-            "keybind": "h",
-            "icon": "/home/amitr/.config/wleave/icons/hibernate.svg"
         },
         {
             "label": "logout",
@@ -31,13 +23,6 @@
             "text": "Shutdown",
             "keybind": "s",
             "icon": "/home/amitr/.config/wleave/icons/shutdown.svg"
-        },
-        {
-            "label": "suspend",
-            "action": "systemctl suspend",
-            "text": "Suspend",
-            "keybind": "u",
-            "icon": "/home/amitr/.config/wleave/icons/suspend.svg"
         },
         {
             "label": "reboot",
