@@ -23,7 +23,7 @@ function y() {
 	rm -f -- "$tmp"
 }
 
-export EDITOR=nano
+export EDITOR=micro
 
 # fzf config
 export FZF_DEFAULT_COMMAND="fd --hidden --strip-cwd-prefix --exclude .git"
