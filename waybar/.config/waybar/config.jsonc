@@ -11,7 +11,6 @@
     "battery",
     "clock",
     "tray",
-    "custom/arch-update",
     "custom/notification",
     "custom/power"
   ],
@@ -44,7 +43,7 @@
     "format-icons": {
         "default": ["󰕿", "󰖀", "󰕾"]
     },
-    "on-click": "pavucontrol"
+    "on-click": "wiremix"
   },
   "tray": {
     "icon-size": 21,
